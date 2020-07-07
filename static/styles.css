@@ -1,0 +1,112 @@
+.gu-button {
+    display: none;
+    position: fixed;
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+    box-shadow: 0 0 0 1px rgba(0,0,0,0.04), 0 4px 8px 0 rgba(0,0,0,0.20);
+    border: 2px solid #428bca;
+    border-radius: 35px;
+    color: #428bca;
+    font-size: 30px;
+    text-decoration: none;
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+    bottom: 50px;
+    right: 50px;
+    z-index: 9997;
+}
+
+.gu-button a {
+    text-decoration: none;
+}
+
+.gu-button a:hover {
+    text-decoration: none;
+}
+
+.gu-button a:visited {
+    text-decoration: none;
+}
+
+.gu-card
+{
+    display: none;
+    position: fixed;
+    width: 310px;
+    right: 90px;
+    bottom: 90px;
+    z-index: 9998;
+}
+
+.gu-list
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.gu-list li
+{
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px dotted #B3A9A9;
+}
+
+.gu-list li.left .gu-list-body
+{
+    margin-left: 60px;
+}
+
+.gu-list li.right .gu-list-body
+{
+    margin-right: 60px;
+}
+
+
+.gu-list li .gu-list-body p
+{
+    margin: 0;
+    color: #777777;
+}
+
+.panel .slidedown .glyphicon, .gu-list .glyphicon
+{
+    margin-right: 5px;
+}
+
+.panel-body
+{
+    overflow-y: scroll;
+    height: 279px;
+}
+
+::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar
+{
+    width: 12px;
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #555;
+}
+
+/* The video_holder - hidden by default */
+.gu-video-holder {
+    display: none;
+    position: fixed;
+    bottom: 100px;
+    right: 300px;
+    border: 3px solid #f1f1f1;
+    z-index: 9999;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    background-color: white;
+}
